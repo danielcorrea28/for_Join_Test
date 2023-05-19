@@ -1,0 +1,2 @@
+SELECT id, nombre, numero FROM public.persona
+INNER JOIN public.dni ON idpersona = id;
